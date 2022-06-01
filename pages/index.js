@@ -12,8 +12,9 @@ const Home = () => {
 
           <button
               onClick={() => {
-                router.push("#world");
                 router.push("/blog");
+                router.push("#hello");
+                router.push("#hello-world");
               }}
           >
             to world
